@@ -219,7 +219,7 @@ nav .icon-burger .line{
   height: 50px;
   border: none;
   border-radius: 30px;
-  background-color: orangered;
+  background-color: #DA6F51;
   color: white;
 }
 
@@ -246,6 +246,7 @@ nav .icon-burger .line{
   font-size: 15px;
   width: 40%;
   margin-left: 100px;
+  color: #252356;
 }
 
 .rationale-txt{
@@ -258,15 +259,17 @@ nav .icon-burger .line{
 }
 
 .source-txt{
-  color: orange;
+  color: #DA6F51;
   font-size: 10px;
 }
 .image2{
   margin-right: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.why{
-  color: orange;
+.whyy{
+  color: #DA6F51;
   font-size: 40px;
   font-weight: bold;
 }
@@ -293,16 +296,47 @@ nav .icon-burger .line{
   width: 100%;
 }
 
+.connect2{
+  width: 100%;
+}
 
+.element2{
+  display: none;
+}
 
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ACABAA;
+  gap: 10px;
+}
 
+.stats-num{
+  font-size: 35px;
+  font-weight: bolder;
+}
 
+.malaria{
+  font-size: 10px;
+}
+
+.stats-cont{
+  line-height: 5px;
+}
 
 
 
 
 
 @media only screen and (max-width: 767px) {
+
+  .design{
+    position: relative;
+    width: 100%;
+    bottom: 60px;
+  }
 
   .sectionone_content{
   padding-top: 200px;
@@ -319,7 +353,7 @@ nav .icon-burger .line{
   .hero_txt{
     display: flex;
     width: 280px;
-    height: 100px;
+    height: 80px;
   }
 
   .innovate{
@@ -342,12 +376,20 @@ nav .icon-burger .line{
   .rationale{
     text-align: left;
     font-size: 15px;
-    width: 80%;
+    width: 75%;
     margin-left: 0px;
+    /* word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    text-overflow: ellipsis; */
+
+      
   }
 
   .image2{
     margin-right: 0px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .children{
@@ -356,7 +398,7 @@ nav .icon-burger .line{
   }
   
   .pageone--sectionthree{
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
@@ -368,20 +410,48 @@ nav .icon-burger .line{
 
   .element-cont{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-between;
+    /* align-items: flex-start; */
     width: 100%;
   }
   .urgency{
     text-align: left;
-    width: 80%;
+    width: 75%;
     margin-right: 0;
     display: flex;
     flex-direction: column;
-
   }
 
+  .element2{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    height: 200px;
+  }
   .element{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    height: 200px;
+  }
+
+  .connect-scroll{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;  
+  }
+
+  .connect{
+    width: 180%;
+  }
+
+  .learn{
     display: none;
+  }
+
+  .whyy{
+    color: #DA6F51;
+    font-size: 25px;
+    font-weight: bold;
   }
 }
