@@ -41,8 +41,8 @@ export default function Home(){
 
             <div className='pageone--sectionthree'>
                 <div className='element-cont'>
-                    <img src ='./image/element.png'className='element'></img>
-                    <img src ='./image/element.png'className='element2'></img>
+                    <img src ='./image/semicircle.png'className='element'></img>
+                    <img src ='./image/semicircle.png'className='element2'></img>
                 </div>
                 <div className='urgency'>
                     <h3 className='whyy'>The Urgency of Early Malaria Diagnosis</h3>

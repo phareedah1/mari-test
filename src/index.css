@@ -405,6 +405,8 @@ nav .icon-burger .line{
   }
 
   .element{
+    transform: scale(-1);
+    display: block;
     width: 200px;
     height: 300px;
   }
@@ -424,7 +426,6 @@ nav .icon-burger .line{
   }
 
   .element2{
-    transform: scale(-1);
     display: block;
     justify-content: flex-end;
     width: 150px;
