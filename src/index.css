@@ -390,6 +390,7 @@ nav .icon-burger .line{
     margin-right: 0px;
     display: flex;
     flex-direction: column-reverse;
+    gap: 15px;
   }
 
   .children{
@@ -423,7 +424,8 @@ nav .icon-burger .line{
   }
 
   .element2{
-    display: flex;
+    transform: scale(-1);
+    display: block;
     justify-content: flex-end;
     width: 150px;
     height: 200px;
