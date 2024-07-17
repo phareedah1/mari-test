@@ -1,0 +1,140 @@
+.ankara{
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+.pagetwo_sectionone{
+    width: 100%;
+    height: 500px;
+    background-color: #132E3D;
+    background-image: url('../images/contactdecor.png');
+    position: relative;
+    bottom: 50px;
+    color: white;
+}
+
+.sectiononee_content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    gap: 200px;
+}
+
+.pagetwo_firsttxt{
+    width: 40%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.children-2{
+    width: 30rem;
+}
+
+.teammaritest{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.story{
+    width: 40%;
+    text-align: left;
+}
+
+.teammaritest2{
+    display: flex;
+    flex-direction: row;
+    /* gap: 350px; */
+}
+
+.semicircle{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.story2{
+    width: 40%;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.rationale-txt{
+    letter-spacing: 6px;
+    font-weight: bold;
+  }
+
+.why{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .pagetwo_sectionone{
+        width: 100%;
+        height: 700px;
+    }
+
+    .sectiononee_content{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+        gap: 50px;
+    }
+
+    .pagetwo_firsttxt{
+        width: 80%;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .children-2{
+        width: 20rem;
+    }
+
+    .teammaritest{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .teammaritest2{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .man{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .story{
+        width: 80%;
+        text-align: center;
+    }
+    .story2{
+        width: 80%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .semicircle{
+        display: none;
+    }
+  }
+  
