@@ -54,7 +54,7 @@ export default function Home(){
                 <img src='./image/sponsors.png' className='connect'></img>
             </div>
 
-            {/* <Contactus /> */}
+            <Contactus />
         </div>
     )
 }

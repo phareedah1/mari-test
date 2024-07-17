@@ -380,4 +380,8 @@ nav .icon-burger .line{
     flex-direction: column;
 
   }
+
+  .element{
+    display: none;
+  }
 }

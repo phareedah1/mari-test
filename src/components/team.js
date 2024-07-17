@@ -1,5 +1,6 @@
 import React from 'react'
 import "./page3.css"
+import Contactus from "./contactus"
 
 export default function Team(){
     return(
@@ -69,32 +70,7 @@ export default function Team(){
                     </div>
                 </div>
             </div>
-
-            <div>
-                {/* <div className='contact_section'>
-                    <div className='inner-sec'>
-                        <div className='contacts-list'>
-                            <h1 className='support'>Support</h1>
-                            <h1 className='support'>Partner</h1>
-                            <h1 className='support'>Join</h1>
-                            <h1 className='contact-color'>Contact Us</h1>
-                        </div>
-                        <div className='contact_us'>
-                            <div className='name_cont'>
-                                <input placeholder='name' className='name'/>
-                                <input placeholder='email' className='name'/>
-                            </div>
-                            <div className='button'>
-                                <input placeholder='leave a message' className='message'/>
-                                <button className='contact'>Contact Us</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='together'>
-                        <img src='./image/together.png' className='together-img'></img>
-                </div> */}
-            </div>
+            <Contactus />
         </div>
     )
 }

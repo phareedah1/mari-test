@@ -22,19 +22,16 @@ export default function Contact(){
                     </div>
                 </div>
             </div>
-            <div className='pagefour--sectiontwo'>
-                <img src='./image/together.png' className='together'></img>
-                {/* <p>maritest</p>
-                <div>
-                    <img src='./image/in.png'></img>
-                    <img src='./image/insta.png'></img>
-                    <img src='./image/mail.png'></img>
-                    <img src='./image/footer.png'></img>
-                </div> */}
-            </div>
-            <div className='pagefour--sectionthree'>
-            <i class="fa fa-copyright" aria-hidden="true"></i>
-            <p>@something</p>
+            <div className='icons-background'>
+            <   img src='./image/together.png' className='together-img2'></img>
+                <img src='./image/thin-line.png' className='thin'></img>
+                <div className='footer'>
+                    <p>©2024 MariTest Africa. All rights reserved.</p>
+                    <div className='privacy'>
+                        <p>Privacy Policy</p>
+                        <p>Terms and Conditions</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

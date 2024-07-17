@@ -1,4 +1,5 @@
 import React from 'react'
+import Contactus from "./contactus"
 import "./page2.css"
 
 export default function About(){
@@ -42,6 +43,8 @@ export default function About(){
                     </div>
                 </div>
             </div>
+
+            <Contactus />
         </div>
     )
 }

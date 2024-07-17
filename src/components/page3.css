@@ -33,51 +33,25 @@
 
 
 
-.contact_section{
-    width: 100%;
-    height: 350px;
-    background-color: #132E3D;
-    background-image: url('../images/contactdecor.png');
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.inner-sec{
-    background-color:rgba(255, 255, 255, 0.2);
-    width: 800px;
-    height: 250px;
-    border-radius: 30px 30px 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-}
 
-.support{
-    color: #70818A;
-}
 
-.contact-color{
-    color: white;
-}
 
-.together{
-    width: 100%;
-    height: 80px;
-    background-color: #132E3D;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
 
-.together-img{
-    margin-left: 220px;
-    width: 100px;
-    height: 50px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

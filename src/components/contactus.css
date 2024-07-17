@@ -1,16 +1,17 @@
 .contact_section{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: #132E3D;
     background-image: url('../images/contactdecor.png');
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .inner-sec{
-    background-color: #425864;
+    background-color:rgba(255, 255, 255, 0.2);
     width: 800px;
     height: 250px;
     border-radius: 30px 30px 0 0;
@@ -18,4 +19,84 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+}
+
+.support{
+    color: #70818A;
+}
+
+.contact-color{
+    color: white;
+}
+
+.togetherr{
+    width: 100%;
+    height: 60px;
+    background-color: #132E3D;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.together-img{
+    margin-left: 220px;
+    width: 100px;
+    height: 50px;
+}
+
+.thin{
+    width: 100%;
+    height: 2px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #848C98;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .contact_section{
+        width: 100%;
+        height: 60rem;
+        background-color: #132E3D;
+        background-image: url('../images/contactdecor.png');
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .inner-sec{
+        background-color:rgba(255, 255, 255, 0.2);
+        width: 80%;
+        height: 40rem;
+        border-radius: 30px 30px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+
+
+    
 }
